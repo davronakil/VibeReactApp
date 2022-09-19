@@ -14,8 +14,7 @@ export default function App() {
   }
 
 useEffect(() => {
-  // global google
-
+  // global google code, latest 2022 version
   google.accounts.id.initialize({
     client_id: "277985038929-k5hctsktthdu0llb29r5m7m1mirr81km.apps.googleusercontent.com",
     callback: handleCallbackResponse
@@ -32,10 +31,19 @@ useEffect(() => {
   return (
     
     <div>
-      <h1>Vibe MVP</h1>
+      <h1 class="mainHeader vibeBlue center textShadow">Vibe</h1>
       <p>Join, complete your unique profile, and find compatible and like-minded people around you to vibe with.</p>
-    
+
+      {/* if signed out */}
       <div id="signInDiv"></div>
+
+      <div id="publicFeed">
+
+      </div>    
+      
+
+      {/* if signed in */}
+      <div id="loggedInFeed"></div>
     
     </div>
       
