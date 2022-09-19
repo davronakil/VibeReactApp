@@ -106,5 +106,18 @@ h1, p {
 h1.mainHeader {
   font-family: 'Poppins', 'Roboto Condensed', Verdana, Geneva, Tahoma, sans-serif;
   font-size: var(--step-1);
+  line-height: 0em;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
 }
 
+
+
+/* sections */
+
+#mainContainer {
+  margin: 0.4em;
+  border: 1px solid #276DF8;
+  padding: 1em;
+  border-radius: 12px;
+}
