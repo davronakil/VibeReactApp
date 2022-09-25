@@ -25,8 +25,8 @@ export default function App() {
   }, []);
 
   return (
-    <div id="mainContainer" class="boxShadow">
-      <h1 class="mainHeader vibeBlue center textShadow">Vibe</h1>
+    <div id="mainContainer" className="boxShadow">
+      <h1 className={'mainHeader vibeBlue center textShadow'}>Vibe</h1>
       <p>
         Join, complete your unique profile, and find compatible and like-minded
         people around you to vibe with.
