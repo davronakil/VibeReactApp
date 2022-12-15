@@ -28,8 +28,8 @@ export default function App() {
     <div id="mainContainer" className="boxShadow">
       <h1 className={'mainHeader vibeBlue center textShadow'}>Vibe</h1>
       <p>
-        Join, complete your unique profile, and find compatible and like-minded
-        people around you to vibe with.
+        Create your unique profile and find compatible &amp; like-minded
+        people to vibe with IRL.
       </p>
 
       {/* if signed out */}
